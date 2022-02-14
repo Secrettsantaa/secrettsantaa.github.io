@@ -1,0 +1,31 @@
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.nav{
+    top: 0;
+    float: right;
+    position: fixed;
+    height: 50px;
+    background: rgba(34, 34, 34, 0.808);
+    width: 100%;
+    padding-top: 15px;
+    z-index: 1;
+}
+#active{
+    color: rgb(76, 253, 150);
+}
+@media(max-width:425px){
+    .nav a{
+        font-size: 15px;
+        line-height: 22.5px;
+    }
+    .nav{
+        height: 22.5px;
+    }
+}
